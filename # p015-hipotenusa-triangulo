@@ -1,0 +1,14 @@
+# p015-hipotenusa-triangulo
+#Calcula la hipotenusa del triangulo
+
+import math
+
+# Entrada de datos
+longlado1 = float(input("Ingrese la longitud del primer cateto: "))
+longlado2 = float(input("Ingrese la longitud del segundo cateto: "))
+
+# Cálculo de la hipotenusa con la fórmula indicada
+hipotenusa = math.sqrt((longlado1 * longlado1) + (longlado2 * longlado2))
+
+# Salida del resultado
+print(f"La hipotenusa del triángulo rectángulo es: {hipotenusa:.2f}")

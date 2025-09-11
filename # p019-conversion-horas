@@ -1,0 +1,16 @@
+# p019-conversion-horas
+# Conversión de horas a días, minutos y segundos.
+
+# Entrada de datos
+horas = int(input("Ingrese la cantidad de horas (número entero): "))
+
+# Conversión
+dias = horas / 24
+minutos = horas * 60
+segundos = horas * 3600
+
+# Salida de resultados
+print(f"{horas} horas equivalen a:")
+print(f"- {dias:.2f} días")
+print(f"- {minutos} minutos")
+print(f"- {segundos} segundos")

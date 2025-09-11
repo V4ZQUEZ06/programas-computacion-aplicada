@@ -1,0 +1,15 @@
+# p018-volumen-cilindro
+# Calcula el volumen de un cilindro
+
+
+import math
+
+# Entrada de datos
+radio = float(input("Ingrese el radio del cilindro: "))
+altura = float(input("Ingrese la altura del cilindro: "))
+
+# Cálculo del volumen
+volumen = math.pi * (radio * radio) * altura
+
+# Salida del resultado
+print(f"El volumen del cilindro es: {volumen:.2f} unidades cúbicas")

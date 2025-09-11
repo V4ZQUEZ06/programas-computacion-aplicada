@@ -1,0 +1,11 @@
+# p017-celsius-fahrenheit
+#Obtiene su equivalente en grados farenheit
+
+# Entrada de datos
+celsius = float(input("Ingrese la temperatura en grados Celsius: "))
+
+# Cálculo de Fahrenheit
+fahrenheit = (celsius * 9/5) + 32
+
+# Salida del resultado
+print(f"La temperatura equivalente en grados Fahrenheit es: {fahrenheit:.2f} °F")

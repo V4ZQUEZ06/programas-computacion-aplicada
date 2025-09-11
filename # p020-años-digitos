@@ -1,0 +1,16 @@
+# p020-año-digitos
+#Descompone un año de nacimiento en sus dígitos y luego los suma
+
+
+# Entrada de datos
+anio = int(input("Ingrese su año de nacimiento (4 dígitos): "))
+
+# Convertir el número en cadena para separar los dígitos
+digitos = [int(d) for d in str(anio)]
+
+# Calcular la suma
+suma_digitos = sum(digitos)
+
+# Salida de resultados
+print(f"Los dígitos individuales del año son: {digitos}")
+print(f"La suma de los dígitos es: {suma_digitos}")

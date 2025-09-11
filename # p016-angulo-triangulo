@@ -1,0 +1,13 @@
+# p016-angulo-triangulo
+# Calcula el 3er ángulo de un triangulo
+
+
+# Entrada de datos
+angulo1 = float(input("Ingrese el primer ángulo del triángulo: "))
+angulo2 = float(input("Ingrese el segundo ángulo del triángulo: "))
+
+# Cálculo del tercer ángulo
+angulo3 = 180 - (angulo1 + angulo2)
+
+# Salida del resultado
+print(f"El tercer ángulo del triángulo es: {angulo3:.2f} grados")
