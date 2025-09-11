@@ -1,16 +1,15 @@
-# p021-distancia-entre-puntos
-#Calcula la distancia entre puntos
+# Programa: p022-resistencia-equivalente-paralelo-4.py
+# Calcular la resistencia equivalente de cuatro resistencias en paralelo
 
-import math
+# Entrada
+R1 = float(input("Ingresa el valor de la resistencia R1 (ohms): "))
+R2 = float(input("Ingresa el valor de la resistencia R2 (ohms): "))
+R3 = float(input("Ingresa el valor de la resistencia R3 (ohms): "))
+R4 = float(input("Ingresa el valor de la resistencia R4 (ohms): "))
 
-# Entrada de datos
-x1 = float(input("Ingrese la coordenada x1: "))
-y1 = float(input("Ingrese la coordenada y1: "))
-x2 = float(input("Ingrese la coordenada x2: "))
-y2 = float(input("Ingrese la coordenada y2: "))
+# Proceso
+Rt = 1 / (1/R1 + 1/R2 + 1/R3 + 1/R4)
 
-# Cálculo de la distancia
-distancia = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+# Salida
+print(f"La resistencia equivalente en paralelo es: {Rt:.2f} ohms")
 
-# Salida del resultado
-print(f"La distancia entre los puntos ({x1}, {y1}) y ({x2}, {y2}) es: {distancia:.2f}")
