@@ -3,10 +3,10 @@
 
 
 # Entrada de datos
-anio = int(input("Ingrese su año de nacimiento (4 dígitos): "))
+año = int(input("Ingrese su año de nacimiento (4 dígitos): "))
 
 # Convertir el número en cadena para separar los dígitos
-digitos = [int(d) for d in str(anio)]
+digitos = [int(d) for d in str(año)]
 
 # Calcular la suma
 suma_digitos = sum(digitos)
