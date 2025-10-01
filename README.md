@@ -93,3 +93,6 @@
 - p063-numero-mayor.py
 - p064-verificar-palindromo.py
 
+## Actividad 8 - Problema de repaso - Parcial 1
+
+- p065-SistemaPapeleria
