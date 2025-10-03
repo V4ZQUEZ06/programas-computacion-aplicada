@@ -96,3 +96,10 @@
 ## Actividad 8 - Problema de repaso - Parcial 1
 
 - p065-SistemaPapeleria
+
+## 09 - Primer examen parcial
+
+- p066_PrimerExamenParcial.py
+- Computación Aplicada - Primer Examen Parcial
+- Autor: Yahir Vazquez Puente
+- Fecha: 03/10/25
