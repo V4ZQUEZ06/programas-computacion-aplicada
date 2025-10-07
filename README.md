@@ -103,3 +103,15 @@
 - Computación Aplicada - Primer Examen Parcial
 - Autor: Yahir Vazquez Puente
 - Fecha: 03/10/25
+
+## Actividad 8 - Actividad de clase
+
+- p067-conteo-ascendente-for.py
+- p068-conteo-ascendente-for-v2.py
+- p069-conteo-descendente-for.py
+- p070-conteo-descendente-for-v2.py
+- p071-arriba-abajo.py
+- p072-suma-pares-impares.py
+- p073-suma-promedio-numeros.py
+- p074-suma-mutiplos.py
+- p075-cifrado-cesar.py
