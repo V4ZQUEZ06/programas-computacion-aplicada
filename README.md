@@ -132,3 +132,12 @@
 - p084-cuadro-hueco-caracter.py
 - p085-rombo-caracter.py
 - p086-triangulo-invertido-numeros.py
+
+## Actividad 11 - Actividad de clase
+
+- p087-acceder-lista.py
+- p088-modificar-lista.py
+- p089-agregar-lista.py
+- p090-eliminar-lista.py
+- p091-iterar-lista.py
+- p092-lista-de-gastos.py
