@@ -194,3 +194,6 @@
 
 - p123-conjunto-personas.py
 - p124-conjunto-numeros.py
+
+## 02 - Segundo examen parcial
+- p125-segundo-examen-parcial.py
